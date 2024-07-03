@@ -1,34 +1,15 @@
-# React Native ShoppingCart UI
+> Why do I have a folder named ".expo" in my project?
 
-This project is a React Native application designed to showcase a shopping cart user interface. It provides a simple and intuitive interface for managing items in a shopping cart, including adding items, adjusting quantities, and viewing the total cost.
+The ".expo" folder is created when an Expo project is started using "expo start" command.
 
-Features
-Add Items: Easily add items to the shopping cart with a few taps.
-Adjust Quantities: Modify item quantities directly from the cart view.
-Calculate Total Cost: Automatically calculate and display the total cost of all items in the cart.
-Responsive Design: Designed to work seamlessly on both Android and iOS devices.
-Getting Started
-To get started with this project, follow these steps:
+> What do the files contain?
 
-Prerequisites: Make sure you have Node.js and npm installed on your machine.
+- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
+- "packager-info.json": contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
+- "settings.json": contains the server configuration that is used to serve the application manifest.
 
-Student ID:11117590
+> Should I commit the ".expo" folder?
 
-Clone the Repository: Clone this repository to your local machine.
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
 
-Install Dependencies: Navigate into the project directory and install all necessary dependencies.
-
-Run the Application: Start the Metro Bundler and run the application on your preferred emulator or device.
-
-Explore: Once the application is running, explore the shopping cart interface, add items, adjust quantities, and observe the total cost calculation.
-
-Screenshots
-![Alt text](assets/photo_5778489871403435524_y.jpg) ![Alt text](assets/photo_5778489871403435525_y.jpg)
-
-Contributing
-Contributions are welcome! If you have any suggestions, enhancements, or bug fixes, please feel free to open an issue or submit a pull request.
-
-Acknowledgments
-React Native: A JavaScript framework for building native mobile apps using React.
-Expo: Tools and libraries for building native iOS and Android apps with React Native.
-Icons: Icons used in this project are from FontAwesome and Material Icons.
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
